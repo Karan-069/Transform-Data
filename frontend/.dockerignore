@@ -1,0 +1,27 @@
+# Ignore node_modules (for React frontend)
+node_modules/
+
+# Ignore build artifacts (like those in the React frontend's build directory)
+build/
+
+# Ignore Python virtual environment and dependencies (for backend)
+venv/
+*.pyc
+__pycache__/
+
+# Ignore test and development files
+tests/
+*.log
+*.md
+.DS_Store
+.idea/
+.vscode/
+
+# Ignore Docker-related files that are not needed for the build context
+Dockerfile
+docker-compose.yml
+nginx.conf
+
+# Ignore package-lock.json / yarn.lock (if you want to use a specific lockfile in the build)
+#package-lock.json
+#yarn.lock
